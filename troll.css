@@ -1,0 +1,59 @@
+/*stylesheet for troll game
+Kurt Bruckbauer*/
+
+body {
+    background-image: url('monster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    
+    font-family: 'Nosifer', cursive;
+    color:maroon;
+    text-align: left;
+    font-size: 70px;
+    text-shadow: 5px 5px 8px lavender;
+}
+div#button {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  background-color:maroon;
+  color: lavender;
+  width: 300px;
+  text-align: center;
+  margin-top: 300px;
+  border-radius: 40px;
+  padding: 10px 0px;
+  transition: all 2s;
+}
+
+div#button:hover {
+    background-color: lavender;
+    color:maroon;
+    font-size: 34px;
+    width: 400px;
+
+}
+
+h2#result {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 34px;
+  color:lavender;
+  text-shadow: 2px 2px 4px maroon;
+
+}
+
+h2#death {
+  font-family: 'Nosifer', cursive;
+  text-align: center;
+  font-size: 100px;
+  color:maroon;
+  text-shadow: 5px 5px 8px lavender;
+  transition: all 2s;
+}
+
+h2#death:hover {
+    color: maroon;
+    text-shadow: lavender;
+    font-size: 200px;
+}
